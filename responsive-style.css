@@ -1,0 +1,289 @@
+/* Responsive Screen CSS */
+@media only screen and (max-width:768px) {
+    body {
+        display: grid;
+        width: 500px;
+        position: relative;
+    }
+
+    .navbar-logo {
+        filter: drop-shadow(0rem 0rem 0rem var(--white));
+        height: 8.75rem;
+        width: 8.75rem;
+    }
+
+    .nav-link {
+        visibility: hidden;
+    }
+
+    .navbar {
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+        justify-content: center;
+    }
+
+    .nev {
+        margin-top: 0rem;
+        margin-left: 0rem;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 4.7rem;
+    }
+
+    .intro-part {
+        margin: 0rem 2rem 0rem 2rem;
+        animation-name: bg-change;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes bg-change {
+        from {
+            box-shadow: 0 0 0 var(--black);
+        }
+
+        to {
+            box-shadow: 0 0 4.125rem var(--light-blue);
+        }
+    }
+
+
+    .intro {
+        margin-top: 18rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .line {
+        padding: 2.8rem;
+    }
+
+    .intro-line-1 {
+        font-size: 2.7rem;
+    }
+
+    .intro-line-2 {
+        font-size: 2rem;
+    }
+
+    .widget-layout {
+        scale: 1.6;
+        gap: 1rem;
+        top: -20.4rem;
+    }
+
+    .about {
+        top: -10rem;
+    }
+
+    .about-title {
+        font-size: 4rem;
+    }
+
+    .about-des {
+        margin-top: 1rem;
+        font-size: 2.6rem;
+    }
+
+    .about-tab {
+        display: grid;
+    }
+
+    .tab {
+        width: 70rem;
+        padding: 4rem;
+        border: 0.2525rem solid var(--light-blue);
+    }
+
+    .tab-line {
+        font-size: 3rem;
+    }
+
+    .tab-des {
+        font-size: 2.2rem;
+    }
+
+    .tab-element {
+        font-size: 2.2rem;
+    }
+
+    .element {
+        padding: 1.5rem;
+    }
+
+    .certificate {
+        top: -15rem;
+    }
+
+    .certificate-title {
+        font-size: 4rem;
+    }
+
+    .certificate-tab {
+        display: grid;
+        justify-content: center;
+    }
+
+    .certificate-tab-tab {
+        padding: 3rem;
+        font-size: 2.8rem;
+        justify-content: left;
+    }
+
+
+    .certificate-img,
+    .certificate-img-div {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .certificate-detail {
+        margin-left: 3rem;
+    }
+
+    .experience {
+        top: -17.5rem;
+    }
+
+    .experience-title {
+        font-size: 4rem;
+    }
+
+    .experience-tab {
+        display: grid;
+    }
+
+    .experience-tab-tab {
+        justify-content: left;
+        padding: 4rem;
+        font-size: 2.8rem;
+    }
+
+    .experience-img,
+    .experience-img-div {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .experience-detail {
+        margin-left: 3rem;
+    }
+
+    .project {
+        top: -20rem;
+    }
+
+    .project-title {
+        font-size: 4rem;
+    }
+
+    .project-tab {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .project-detail {
+        font-size: 2.7rem;
+    }
+
+    .project-desc,
+    .button-style {
+        font-size: 2rem;
+    }
+
+    .contact {
+        top: -23rem;
+        margin: 0rem 3rem 0rem 3rem;
+    }
+
+    .contact-title {
+        font-size: 4rem;
+    }
+
+    .label-style,
+    .input-style,
+    .contact-button-style {
+        font-size: 2.5rem;
+    }
+
+    .input-style,
+    .contact-button-style {
+        border-width: 0.2525rem;
+    }
+
+    .input-style {
+        padding: 2rem;
+    }
+
+    .contact-button-style {
+        padding: 1rem;
+        width: 13rem;
+    }
+
+    .footer {
+        font-size: 2rem;
+    }
+
+
+    .title:hover,
+    .link-style:hover,
+    .link-hover:hover {
+        scale: 1;
+        color: var(--white);
+    }
+
+    .navbar-logo:hover {
+        scale: 1;
+        filter: drop-shadow(0 0.0rem 0rem var(--white));
+    }
+
+    .navbar:hover {
+        filter: drop-shadow(0rem 0rem 0rem rgba(255, 255, 255, 0.7));
+    }
+
+    .intro-part:hover {
+        box-shadow: 0 0 0rem var(--light-blue);
+    }
+
+    .wideget-sec:hover {
+        scale: 1;
+    }
+
+    .github:hover {
+        filter: drop-shadow(0rem 0rem 0rem var(--white));
+    }
+
+    .twitter:hover {
+        filter: drop-shadow(0rem 0rem 0rem var(--twitter));
+    }
+
+    .linkedin:hover {
+        filter: drop-shadow(0rem 0rem 0rem var(--linkedin));
+    }
+
+    .element:hover {
+        font-weight: normal;
+        scale: 1;
+    }
+
+    .element-hover:hover {
+        font-weight: normal;
+    }
+
+    .experience-tab-tab:hover,
+    .certificate-tab-tab:hover {
+        scale: 1;
+    }
+
+    .button-style:hover,
+    .contact-button-style:hover {
+        border-color: var(--light-blue);
+    }
+}
